@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors */
+  --color-brand-primary: #0F2854;
+  --color-brand-medium: #1C4D8D;
+  --color-brand-light: #4988C4;
+  --color-brand-accent: #BDE8F5;
+  --color-brand-dark: #0a1128;
+
+  /* Fonts */
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
